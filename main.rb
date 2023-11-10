@@ -1,7 +1,7 @@
 def computer
     array = Array["rock", "paper", "scissors"]
-    randomElement = rand(array.length)
-    return array[randomElement]
+    random_element = rand(array.length)
+    return array[random_element]
 end
 
 def logic user, computer
